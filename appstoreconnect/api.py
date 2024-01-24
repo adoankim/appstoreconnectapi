@@ -668,7 +668,7 @@ class Api:
 	def download_sales_and_trends_reports(self, filters=None, save_to=None):
 		# setup required filters if not provided
 		default_versions = {
-			'SALES': '1_0',
+			'SALES': '1_1',
 			'SUBSCRIPTION': '1_2',
 			'SUBSCRIPTION_EVENT': '1_2',
 			'SUBSCRIBER': '1_2',
